@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c594b7e8-1115-44b8-84c4-f1f19b92bc80" name="Changes" comment="Adding browser params to run all tests for all browser">
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    <list default="true" id="c594b7e8-1115-44b8-84c4-f1f19b92bc80" name="Changes" comment="Running all test together">
+      <change afterPath="$PROJECT_DIR$/tests/test_exceptions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,11 +51,14 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Python tests.All test.executor": "Run",
+    "Python tests.Python tests in test_exceptions.py.executor": "Run",
     "Python tests.Python tests in test_logging_page_negative.py.executor": "Run",
+    "Python tests.exception test.executor": "Run",
+    "Python tests.exceptions test.executor": "Run",
     "Python tests.login test firefox.executor": "Run",
     "Python tests.login test.executor": "Run",
     "Python tests.negative test.executor": "Run",
-    "Python tests.positive test.executor": "Run",
+    "Python tests.positive test.executor": "Debug",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -65,7 +70,7 @@
       <recent name="$PROJECT_DIR$/Tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.login test">
+  <component name="RunManager" selected="Python tests.exceptions test">
     <configuration name="All test" type="tests" factoryName="py.test">
       <module name="SeleniumPythonTests" />
       <option name="ENV_FILES" value="" />
@@ -80,6 +85,24 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="exceptions test" type="tests" factoryName="py.test">
+      <module name="SeleniumPythonTests" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.11 virtualenv at ~/Miguel-124/Selenium-PythonTests/selenium-python-venv" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;-m exceptions&quot;" />
       <option name="_new_target" value="&quot;&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
@@ -162,6 +185,7 @@
       <item itemvalue="Python tests.login test firefox" />
       <item itemvalue="Python tests.positive test" />
       <item itemvalue="Python tests.negative test" />
+      <item itemvalue="Python tests.exceptions test" />
     </list>
   </component>
   <component name="SharedIndexes">
@@ -292,7 +316,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720359092321</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Running all test together">
+      <option name="closed" value="true" />
+      <created>1720359259987</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1720359259987</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -334,6 +366,7 @@
     <MESSAGE value="Adding chow to run test in deffrent browser" />
     <MESSAGE value="Adding browser parameters in configuration and code" />
     <MESSAGE value="Adding browser params to run all tests for all browser" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding browser params to run all tests for all browser" />
+    <MESSAGE value="Running all test together" />
+    <option name="LAST_COMMIT_MESSAGE" value="Running all test together" />
   </component>
 </project>
