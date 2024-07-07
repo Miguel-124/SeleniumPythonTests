@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c594b7e8-1115-44b8-84c4-f1f19b92bc80" name="Changes" comment="Adding conftest.py">
-      <change beforePath="$PROJECT_DIR$/Tests/test_logging_page_negative.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_logging_page_negative.py" afterDir="false" />
+    <list default="true" id="c594b7e8-1115-44b8-84c4-f1f19b92bc80" name="Changes" comment="Adding parametrize for negative scenerio">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/conftest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -240,7 +241,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720357432251</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Adding parametrize for negative scenerio">
+      <option name="closed" value="true" />
+      <created>1720357976913</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1720357976913</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -278,6 +287,7 @@
     <MESSAGE value="Adding requirement and report" />
     <MESSAGE value="Adding fixtures" />
     <MESSAGE value="Adding conftest.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding conftest.py" />
+    <MESSAGE value="Adding parametrize for negative scenerio" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding parametrize for negative scenerio" />
   </component>
 </project>
