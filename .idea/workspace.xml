@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c594b7e8-1115-44b8-84c4-f1f19b92bc80" name="Changes" comment="Adding pytest.ini for markers to pytest">
-      <change afterPath="$PROJECT_DIR$/Tests/test_logging_page_negative.py" afterDir="false" />
+    <list default="true" id="c594b7e8-1115-44b8-84c4-f1f19b92bc80" name="Changes" comment="Adding negative test for loggin">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/test_logging_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_logging_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/test_logging_page_negative.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_logging_page_negative.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +51,7 @@
     "Python tests.All test.executor": "Run",
     "Python tests.Python tests in test_logging_page_negative.py.executor": "Run",
     "Python tests.login test.executor": "Run",
+    "Python tests.negative test.executor": "Run",
     "Python tests.positive test.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -201,7 +200,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720353637319</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Adding negative test for loggin">
+      <option name="closed" value="true" />
+      <created>1720355408966</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1720355408966</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -233,6 +240,7 @@
     <MESSAGE value="Pytest added" />
     <MESSAGE value="Changing selenium test to actual test" />
     <MESSAGE value="Adding pytest.ini for markers to pytest" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding pytest.ini for markers to pytest" />
+    <MESSAGE value="Adding negative test for loggin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding negative test for loggin" />
   </component>
 </project>
