@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c594b7e8-1115-44b8-84c4-f1f19b92bc80" name="Changes" comment="Adding test2 test_element_not_interactable_exception">
+    <list default="true" id="c594b7e8-1115-44b8-84c4-f1f19b92bc80" name="Changes" comment="Adding test3 test_invalid_element_state_exception">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_exceptions.py" afterDir="false" />
     </list>
@@ -359,7 +359,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720390434241</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Adding test3 test_invalid_element_state_exception">
+      <option name="closed" value="true" />
+      <created>1720392305569</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1720392305569</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -404,6 +412,7 @@
     <MESSAGE value="Running all test together" />
     <MESSAGE value="New exceptions tests" />
     <MESSAGE value="Adding test2 test_element_not_interactable_exception" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding test2 test_element_not_interactable_exception" />
+    <MESSAGE value="Adding test3 test_invalid_element_state_exception" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding test3 test_invalid_element_state_exception" />
   </component>
 </project>

@@ -58,7 +58,6 @@ class TestException:
     
     If we try to type text into the disabled input field, we will get ElementNotInteractableException, as in Test case 2.'''
     @pytest.mark.exceptions
-    @pytest.mark.debug
     def test_invalid_element_state_exception(self, driver):
         ### Open page
         driver.get("https://practicetestautomation.com/practice-test-exceptions/")
@@ -72,3 +71,24 @@ class TestException:
 
         #WebDriverWait(driver, 10).until(ec.visibility_of_element_located((By.ID, "confirmation")))
         assert WebDriverWait(driver, 10).until(ec.visibility_of_element_located((By.ID, "confirmation"))).text == "Row 1 was saved", "Row 1 was not saved"
+
+    '''Test case 4: StaleElementReferenceException
+    Open page
+    Find the instructions text element
+    Push add button
+    Verify instruction text element is no longer displayed
+    The instructions element is removed from the page when the second row is added.
+    That’s why we can no longer interact with it.
+    Otherwise, we will see StaleElementReferenceException.'''
+
+    @pytest.mark.exceptions
+    @pytest.mark.debug
+    def test_stale_element_reference_exception(self, driver):
+        ### Open page
+        driver.get("https://practicetestautomation.com/practice-test-exceptions/")
+
+        driver.find_element(By.ID, "instructions")
+        driver.find_element(By.ID, "add_btn").click()
+
+        assert WebDriverWait(driver, 10).until(ec.invisibility_of_element_located(
+            (By.ID, "instruction")), "Instruction should not be displayed")
