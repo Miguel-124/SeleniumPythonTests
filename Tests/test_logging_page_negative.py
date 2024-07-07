@@ -3,6 +3,14 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 import pytest
 
+@pytest.fixture()
+def driver():
+    print("Creating chrome driver instance")
+    driver = webdriver.Chrome()
+    yield driver
+    print("Closing chrome driver instance")
+    driver.quit()
+
 class TestNegativeScenerios:
     """Test case 2: Negative username test
     Open page
@@ -13,9 +21,9 @@ class TestNegativeScenerios:
     Verify error message text is Your username is invalid!"""
     @pytest.mark.login
     @pytest.mark.negative
-    def test_negative_username(self):
+    def test_negative_username(self, driver):
         ### Open page
-        driver = webdriver.Chrome()
+        #driver = webdriver.Chrome()
         driver.get("https://practicetestautomation.com/practice-test-login/")
 
         ###Type username incorrectUser into Username field
@@ -48,9 +56,9 @@ class TestNegativeScenerios:
     Verify error message text is Your password is invalid!"""
     @pytest.mark.login
     @pytest.mark.negative
-    def test_negative_password(self):
+    def test_negative_password(self, driver):
         ### Open page
-        driver = webdriver.Chrome()
+        #driver = webdriver.Chrome()
         driver.get("https://practicetestautomation.com/practice-test-login/")
 
         ###Type username student into Username field
