@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c594b7e8-1115-44b8-84c4-f1f19b92bc80" name="Changes" comment="Adding negative test for loggin">
+    <list default="true" id="c594b7e8-1115-44b8-84c4-f1f19b92bc80" name="Changes" comment="Adding negative test for incorrect user and incorrect password">
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/test_logging_page_negative.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_logging_page_negative.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,21 +23,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Miguel-124"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Miguel-124&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Miguel-124/SeleniumPythonTests.git",
-    "accountId": "f9f573d1-bebf-427f-b20b-fceedf51c2a1"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Miguel-124/SeleniumPythonTests.git&quot;,
+    &quot;accountId&quot;: &quot;f9f573d1-bebf-427f-b20b-fceedf51c2a1&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2iug70bQuiFzCBidwZVFUkdcUqx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -46,25 +46,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.All test.executor": "Run",
-    "Python tests.Python tests in test_logging_page_negative.py.executor": "Run",
-    "Python tests.login test.executor": "Run",
-    "Python tests.negative test.executor": "Run",
-    "Python tests.positive test.executor": "Run",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.All test.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_logging_page_negative.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.login test.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.negative test.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.positive test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.negative test">
+  <component name="RunManager" selected="Python tests.login test">
     <configuration name="All test" type="tests" factoryName="py.test">
       <module name="SeleniumPythonTests" />
       <option name="ENV_FILES" value="" />
@@ -96,7 +96,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;-m login&quot;" />
+      <option name="_new_additionalArguments" value="&quot;-m login --html\u003dreports/report.html&quot;" />
       <option name="_new_target" value="&quot;&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
@@ -208,7 +208,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720355408966</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Adding negative test for incorrect user and incorrect password">
+      <option name="closed" value="true" />
+      <created>1720355922830</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1720355922830</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -241,6 +249,7 @@
     <MESSAGE value="Changing selenium test to actual test" />
     <MESSAGE value="Adding pytest.ini for markers to pytest" />
     <MESSAGE value="Adding negative test for loggin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding negative test for loggin" />
+    <MESSAGE value="Adding negative test for incorrect user and incorrect password" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding negative test for incorrect user and incorrect password" />
   </component>
 </project>
