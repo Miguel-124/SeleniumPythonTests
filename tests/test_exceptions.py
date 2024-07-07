@@ -82,7 +82,6 @@ class TestException:
     Otherwise, we will see StaleElementReferenceException.'''
 
     @pytest.mark.exceptions
-    @pytest.mark.debug
     def test_stale_element_reference_exception(self, driver):
         ### Open page
         driver.get("https://practicetestautomation.com/practice-test-exceptions/")
@@ -92,3 +91,24 @@ class TestException:
 
         assert WebDriverWait(driver, 10).until(ec.invisibility_of_element_located(
             (By.ID, "instruction")), "Instruction should not be displayed")
+
+    '''Test case 5: TimeoutException
+    Open page
+    Click Add button
+    Wait for 3 seconds for the second input field to be displayed
+    Verify second input field is displayed
+    The second row shows up after about 5 seconds, so a 3-second timeout is not enough. 
+    That’s why we will get TimeoutException while executing steps in the above test case.'''
+
+    @pytest.mark.exceptions
+    @pytest.mark.debug
+    def test_timeout_exception(self, driver):
+        ### Open page
+        driver.get("https://practicetestautomation.com/practice-test-exceptions/")
+
+        driver.find_element(By.ID, "add_btn").click()
+
+        # driver.implicitly_wait(10)
+        wait = WebDriverWait(driver, 6)
+        row_2_input_element = wait.until(ec.visibility_of_element_located((By.XPATH, "//div[@id='row2']/input")), "Row2 is not displayed")
+        assert row_2_input_element.is_displayed(), "Row2 is not displayed"
