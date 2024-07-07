@@ -3,7 +3,14 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 import pytest
 
-# Test case 1: Positive LogIn test
+"""Test case 1: Positive LogIn test
+Open page
+Type username student into Username field
+Type password Password123 into Password field
+Push Submit button
+Verify new page URL contains practicetestautomation.com/logged-in-successfully/
+Verify new page contains expected text ('Congratulations' or 'successfully logged in')
+Verify button Log out is displayed on the new page"""
 class TestPositiveScenerios:
     @pytest.mark.login
     @pytest.mark.positive
@@ -40,4 +47,3 @@ class TestPositiveScenerios:
         ###Verify button Log out is displayed on the new page
         logout_button_locator = driver.find_element(By.LINK_TEXT, "Log out")
         assert logout_button_locator.is_displayed()
-
