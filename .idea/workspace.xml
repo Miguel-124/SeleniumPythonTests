@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c594b7e8-1115-44b8-84c4-f1f19b92bc80" name="Changes" comment="Adding browser parameters in configuration and code">
-      <change beforePath="$PROJECT_DIR$/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
+    <list default="true" id="c594b7e8-1115-44b8-84c4-f1f19b92bc80" name="Changes" comment="Adding browser params to run all tests for all browser">
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +115,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;-m login --html\u003dreports/report.html&quot;" />
+      <option name="_new_additionalArguments" value="&quot;-m login --html\u003dreports/report.html -n\u003d6&quot;" />
       <option name="_new_target" value="&quot;&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
@@ -284,7 +284,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720358789877</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Adding browser params to run all tests for all browser">
+      <option name="closed" value="true" />
+      <created>1720359092321</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1720359092321</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -325,6 +333,7 @@
     <MESSAGE value="Adding parametrize for negative scenerio" />
     <MESSAGE value="Adding chow to run test in deffrent browser" />
     <MESSAGE value="Adding browser parameters in configuration and code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding browser parameters in configuration and code" />
+    <MESSAGE value="Adding browser params to run all tests for all browser" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding browser params to run all tests for all browser" />
   </component>
 </project>
