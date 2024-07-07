@@ -1,15 +1,6 @@
 import time
-from selenium import webdriver
 from selenium.webdriver.common.by import By
 import pytest
-
-@pytest.fixture()
-def driver():
-    print("Creating chrome driver instance")
-    driver = webdriver.Chrome()
-    yield driver
-    print("Closing chrome driver instance")
-    driver.quit()
 
 class TestNegativeScenerios:
     """Test case 2: Negative username test

@@ -1,5 +1,4 @@
 import time
-from selenium import webdriver
 from selenium.webdriver.common.by import By
 import pytest
 
@@ -14,15 +13,9 @@ Verify button Log out is displayed on the new page"""
 class TestPositiveScenerios:
     @pytest.mark.login
     @pytest.mark.positive
-    def test_positive_login(self):
+    def test_positive_login(self, driver):
         ### Open page
-        # Open browser
-        driver = webdriver.Chrome()
-        time.sleep(2)
-
-        # Open URL
         driver.get("https://practicetestautomation.com/practice-test-login/")
-        time.sleep(5)
 
         ###Type username student into Username field
         username_locator = driver.find_element(By.ID, "username")

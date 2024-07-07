@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c594b7e8-1115-44b8-84c4-f1f19b92bc80" name="Changes" comment="Adding requirement and report">
+    <list default="true" id="c594b7e8-1115-44b8-84c4-f1f19b92bc80" name="Changes" comment="Adding fixtures">
+      <change afterPath="$PROJECT_DIR$/Tests/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/test_logging_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_logging_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/test_logging_page_negative.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_logging_page_negative.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/report.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +68,7 @@
       <recent name="$PROJECT_DIR$/Tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.negative test">
+  <component name="RunManager" selected="Python tests.login test">
     <configuration name="All test" type="tests" factoryName="py.test">
       <module name="SeleniumPythonTests" />
       <option name="ENV_FILES" value="" />
@@ -225,7 +228,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720356394836</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Adding fixtures">
+      <option name="closed" value="true" />
+      <created>1720356693305</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1720356693305</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -261,6 +272,7 @@
     <MESSAGE value="Adding negative test for loggin" />
     <MESSAGE value="Adding negative test for incorrect user and incorrect password" />
     <MESSAGE value="Adding requirement and report" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding requirement and report" />
+    <MESSAGE value="Adding fixtures" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding fixtures" />
   </component>
 </project>
