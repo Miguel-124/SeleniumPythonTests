@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c594b7e8-1115-44b8-84c4-f1f19b92bc80" name="Changes" comment="Adding parametrize for negative scenerio">
+    <list default="true" id="c594b7e8-1115-44b8-84c4-f1f19b92bc80" name="Changes" comment="Adding chow to run test in deffrent browser">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/report.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +52,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Python tests.All test.executor": "Run",
     "Python tests.Python tests in test_logging_page_negative.py.executor": "Run",
+    "Python tests.login test firefox.executor": "Run",
     "Python tests.login test.executor": "Run",
     "Python tests.negative test.executor": "Run",
     "Python tests.positive test.executor": "Run",
@@ -65,7 +67,7 @@
       <recent name="$PROJECT_DIR$/Tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.negative test">
+  <component name="RunManager" selected="Python tests.login test firefox">
     <configuration name="All test" type="tests" factoryName="py.test">
       <module name="SeleniumPythonTests" />
       <option name="ENV_FILES" value="" />
@@ -80,6 +82,24 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="login test firefox" type="tests" factoryName="py.test">
+      <module name="SeleniumPythonTests" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.11 virtualenv at ~/Miguel-124/Selenium-PythonTests/selenium-python-venv" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;-m login --html\u003dreports/report.html --browser\u003dfirefox&quot;" />
       <option name="_new_target" value="&quot;&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
@@ -141,6 +161,7 @@
     <list>
       <item itemvalue="Python tests.All test" />
       <item itemvalue="Python tests.login test" />
+      <item itemvalue="Python tests.login test firefox" />
       <item itemvalue="Python tests.positive test" />
       <item itemvalue="Python tests.negative test" />
     </list>
@@ -249,7 +270,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720357976913</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Adding chow to run test in deffrent browser">
+      <option name="closed" value="true" />
+      <created>1720358166562</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1720358166562</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -288,6 +317,7 @@
     <MESSAGE value="Adding fixtures" />
     <MESSAGE value="Adding conftest.py" />
     <MESSAGE value="Adding parametrize for negative scenerio" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding parametrize for negative scenerio" />
+    <MESSAGE value="Adding chow to run test in deffrent browser" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding chow to run test in deffrent browser" />
   </component>
 </project>
