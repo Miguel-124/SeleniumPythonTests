@@ -1,12 +1,13 @@
 import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+import pytest
 
-
-
+# Test case 1: Positive LogIn test
 class TestPositiveScenerios:
+    @pytest.mark.login
+    @pytest.mark.positive
     def test_positive_login(self):
-        # Test case 1: Positive LogIn test
         ### Open page
         # Open browser
         driver = webdriver.Chrome()
