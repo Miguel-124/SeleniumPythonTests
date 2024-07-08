@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c594b7e8-1115-44b8-84c4-f1f19b92bc80" name="Changes" comment="Adding base_page.py">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c594b7e8-1115-44b8-84c4-f1f19b92bc80" name="Changes" comment="Adding inherit from base_page to login_page.py">
       <change beforePath="$PROJECT_DIR$/page_objects/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_objects/base_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_objects/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_objects/login_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_objects/logged_in_successfully.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_objects/logged_in_successfully.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -412,7 +411,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720457330438</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Adding inherit from base_page to login_page.py">
+      <option name="closed" value="true" />
+      <created>1720461027368</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1720461027368</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -463,6 +470,7 @@
     <MESSAGE value="Adding login_page object" />
     <MESSAGE value="Adding logged_in_successfully.py object" />
     <MESSAGE value="Adding base_page.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding base_page.py" />
+    <MESSAGE value="Adding inherit from base_page to login_page.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding inherit from base_page to login_page.py" />
   </component>
 </project>
