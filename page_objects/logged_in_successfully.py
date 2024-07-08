@@ -1,7 +1,5 @@
 from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webdriver import WebDriver
-from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.support import expected_conditions as ec
 
 
 class LoginInSuccessfullyPage:
@@ -10,10 +8,6 @@ class LoginInSuccessfullyPage:
     __logout_button_locator = (By.LINK_TEXT, "Log out")
     def __init__(self, driver: WebDriver):
         self._driver = driver
-
-    @property
-    def current_url(self) -> str:
-        return self._driver.current_url
 
     @property
     def expected_url(self) -> str:

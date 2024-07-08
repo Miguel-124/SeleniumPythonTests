@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c594b7e8-1115-44b8-84c4-f1f19b92bc80" name="Changes" comment="Adding login_page object">
-      <change afterPath="$PROJECT_DIR$/page_objects/logged_in_successfully.py" afterDir="false" />
+    <list default="true" id="c594b7e8-1115-44b8-84c4-f1f19b92bc80" name="Changes" comment="Adding logged_in_successfully.py object">
+      <change afterPath="$PROJECT_DIR$/page_objects/base_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_objects/logged_in_successfully.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_objects/logged_in_successfully.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -395,7 +396,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720455365043</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Adding logged_in_successfully.py object">
+      <option name="closed" value="true" />
+      <created>1720456429277</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1720456429277</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -444,6 +453,7 @@
     <MESSAGE value="Adding test4 test_stale_element_reference_exception" />
     <MESSAGE value="Adding test5 test_timeout_exception" />
     <MESSAGE value="Adding login_page object" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding login_page object" />
+    <MESSAGE value="Adding logged_in_successfully.py object" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding logged_in_successfully.py object" />
   </component>
 </project>
