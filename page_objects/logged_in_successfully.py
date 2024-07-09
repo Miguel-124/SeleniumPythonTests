@@ -9,7 +9,7 @@ class LoginInSuccessfullyPage(BasePage):
     __header_locator = (By.TAG_NAME, "h1")
     __logout_button_locator = (By.LINK_TEXT, "Log out")
     def __init__(self, driver: WebDriver):
-        super().__init__()
+        super().__init__(driver)
 
     @property
     def expected_url(self) -> str:
@@ -21,4 +21,4 @@ class LoginInSuccessfullyPage(BasePage):
 
     @property
     def logout_button(self) -> bool:
-        return super().is_displayed(self.__logout_button_locator)
+        return super()._is_displayed(self.__logout_button_locator)

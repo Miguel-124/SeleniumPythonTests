@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c594b7e8-1115-44b8-84c4-f1f19b92bc80" name="Changes" comment="Adding inherit from base_page to login_page.py">
+    <list default="true" id="c594b7e8-1115-44b8-84c4-f1f19b92bc80" name="Changes" comment="Adding inherit from base_page to logged_in_successfully.py">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page_objects/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_objects/base_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page_objects/logged_in_successfully.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_objects/logged_in_successfully.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_objects/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_objects/login_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_logging_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_logging_page.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +61,7 @@
     "Python tests.login test firefox.executor": "Run",
     "Python tests.login test.executor": "Run",
     "Python tests.negative test.executor": "Run",
-    "Python tests.positive test.executor": "Debug",
+    "Python tests.positive test.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -74,7 +77,7 @@
       <recent name="$PROJECT_DIR$/Tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.debug test">
+  <component name="RunManager" selected="Python tests.positive test">
     <configuration name="All test" type="tests" factoryName="py.test">
       <module name="SeleniumPythonTests" />
       <option name="ENV_FILES" value="" />
@@ -419,7 +422,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720461027368</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Adding inherit from base_page to logged_in_successfully.py">
+      <option name="closed" value="true" />
+      <created>1720461450021</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1720461450021</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -471,6 +482,7 @@
     <MESSAGE value="Adding logged_in_successfully.py object" />
     <MESSAGE value="Adding base_page.py" />
     <MESSAGE value="Adding inherit from base_page to login_page.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding inherit from base_page to login_page.py" />
+    <MESSAGE value="Adding inherit from base_page to logged_in_successfully.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding inherit from base_page to logged_in_successfully.py" />
   </component>
 </project>

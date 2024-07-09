@@ -15,16 +15,16 @@ class LoginPage(BasePage):
         super().__init__(driver)
 
     def open(self):
-        super().open_url(self.__url)
+        super()._open_url(self.__url)
 
     def execute_login(self, username: str, password: str):
         super()._type(self.__username_field, username)
         super()._type(self.__password_field, password)
         super()._click(self.__submit_button)
 
-        WebDriverWait(self._driver, 10).until(ec.visibility_of_element_located(self.__username_field))
-        self._driver.find_element(self.__username_field).send_keys(username)
-        WebDriverWait(self._driver, 10).until(ec.visibility_of_element_located(self.__password_field))
-        self._driver.find_element(self.__password_field).send_keys(password)
-        WebDriverWait(self._driver, 10).until(ec.visibility_of_element_located(self.__submit_button))
-        self._driver.find_element(self.__submit_button).click()
+        # WebDriverWait(self._driver, 10).until(ec.visibility_of_element_located(self.__username_field))
+        # self._driver.find_element(self.__username_field).send_keys(username)
+        # WebDriverWait(self._driver, 10).until(ec.visibility_of_element_located(self.__password_field))
+        # self._driver.find_element(self.__password_field).send_keys(password)
+        # WebDriverWait(self._driver, 10).until(ec.visibility_of_element_located(self.__submit_button))
+        # self._driver.find_element(self.__submit_button).click()
