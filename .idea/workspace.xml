@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c594b7e8-1115-44b8-84c4-f1f19b92bc80" name="Changes" comment="Adding inherit from base_page to logged_in_successfully.py">
+    <list default="true" id="c594b7e8-1115-44b8-84c4-f1f19b92bc80" name="Changes" comment="Adding using Page Objects">
+      <change afterPath="$PROJECT_DIR$/page_objects/exceptions_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_exceptions_using_POM.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_logging_page_negative_using_POM.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_logging_page_using_POM.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page_objects/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_objects/base_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page_objects/logged_in_successfully.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_objects/logged_in_successfully.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page_objects/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_objects/login_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium_basic.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_basic_for_learning.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_exceptions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_logging_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_logging_page.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,27 +63,31 @@
     "Python tests.Python tests in test_logging_page_negative.py.executor": "Run",
     "Python tests.debug test.executor": "Run",
     "Python tests.exception test.executor": "Run",
+    "Python tests.exceptions test POM.executor": "Run",
     "Python tests.exceptions test.executor": "Run",
     "Python tests.login test firefox.executor": "Run",
     "Python tests.login test.executor": "Run",
+    "Python tests.negative test POM.executor": "Run",
     "Python tests.negative test.executor": "Run",
+    "Python tests.positive test POM.executor": "Run",
     "Python tests.positive test.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/michalgorecki/Miguel-124/Selenium-PythonTests/SeleniumPythonTests/page_objects",
+    "last_opened_file_path": "/Users/michalgorecki/Miguel-124/Selenium-PythonTests/SeleniumPythonTests/tests",
     "settings.editor.selected.configurable": "project.propVCSSupport.Confirmation"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests" />
       <recent name="$PROJECT_DIR$/page_objects" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.positive test">
+  <component name="RunManager" selected="Python tests.exceptions test POM">
     <configuration name="All test" type="tests" factoryName="py.test">
       <module name="SeleniumPythonTests" />
       <option name="ENV_FILES" value="" />
@@ -110,6 +120,24 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;-m debug&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="exceptions test POM" type="tests" factoryName="py.test">
+      <module name="SeleniumPythonTests" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.11 virtualenv at ~/Miguel-124/Selenium-PythonTests/selenium-python-venv" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;-m exceptions_POM -n6&quot;" />
       <option name="_new_target" value="&quot;&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
@@ -168,6 +196,24 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="negative test POM" type="tests" factoryName="py.test">
+      <module name="SeleniumPythonTests" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.11 virtualenv at ~/Miguel-124/Selenium-PythonTests/selenium-python-venv" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;-m negative_POM&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="negative test" type="tests" factoryName="py.test">
       <module name="SeleniumPythonTests" />
       <option name="ENV_FILES" value="" />
@@ -182,6 +228,24 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;-m negative&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="positive test POM" type="tests" factoryName="py.test">
+      <module name="SeleniumPythonTests" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.11 virtualenv at ~/Miguel-124/Selenium-PythonTests/selenium-python-venv" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;-m positive_POM&quot;" />
       <option name="_new_target" value="&quot;&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
@@ -209,8 +273,11 @@
       <item itemvalue="Python tests.login test" />
       <item itemvalue="Python tests.login test firefox" />
       <item itemvalue="Python tests.positive test" />
+      <item itemvalue="Python tests.positive test POM" />
       <item itemvalue="Python tests.negative test" />
+      <item itemvalue="Python tests.negative test POM" />
       <item itemvalue="Python tests.exceptions test" />
+      <item itemvalue="Python tests.exceptions test POM" />
       <item itemvalue="Python tests.debug test" />
     </list>
   </component>
@@ -430,7 +497,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720461450021</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Adding using Page Objects">
+      <option name="closed" value="true" />
+      <created>1720508492028</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1720508492028</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -458,7 +533,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Creating project" />
     <MESSAGE value="Creating first commend with selenium" />
     <MESSAGE value="Pytest added" />
     <MESSAGE value="Changing selenium test to actual test" />
@@ -483,6 +557,7 @@
     <MESSAGE value="Adding base_page.py" />
     <MESSAGE value="Adding inherit from base_page to login_page.py" />
     <MESSAGE value="Adding inherit from base_page to logged_in_successfully.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding inherit from base_page to logged_in_successfully.py" />
+    <MESSAGE value="Adding using Page Objects" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding using Page Objects" />
   </component>
 </project>

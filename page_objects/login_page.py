@@ -11,6 +11,8 @@ class LoginPage(BasePage):
     __username_field = (By.ID, "username")
     __password_field = (By.NAME, "password")
     __submit_button = (By.XPATH, "//button[@class='btn']")
+    __error_message = (By.ID, "error")
+
     def __init__(self, driver: WebDriver):
         super().__init__(driver)
 
@@ -22,9 +24,5 @@ class LoginPage(BasePage):
         super()._type(self.__password_field, password)
         super()._click(self.__submit_button)
 
-        # WebDriverWait(self._driver, 10).until(ec.visibility_of_element_located(self.__username_field))
-        # self._driver.find_element(self.__username_field).send_keys(username)
-        # WebDriverWait(self._driver, 10).until(ec.visibility_of_element_located(self.__password_field))
-        # self._driver.find_element(self.__password_field).send_keys(password)
-        # WebDriverWait(self._driver, 10).until(ec.visibility_of_element_located(self.__submit_button))
-        # self._driver.find_element(self.__submit_button).click()
+    def get_error_message(self) -> str:
+        return super()._get_text(self.__error_message, time=3)

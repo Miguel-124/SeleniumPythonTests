@@ -1,4 +1,3 @@
-import time
 from selenium.webdriver.common.by import By
 import pytest
 from selenium.webdriver.support import expected_conditions as ec
@@ -101,7 +100,6 @@ class TestException:
     That’s why we will get TimeoutException while executing steps in the above test case.'''
 
     @pytest.mark.exceptions
-    @pytest.mark.debug
     def test_timeout_exception(self, driver):
         ### Open page
         driver.get("https://practicetestautomation.com/practice-test-exceptions/")
